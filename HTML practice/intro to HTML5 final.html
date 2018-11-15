@@ -3,6 +3,19 @@
 <head>
 	<title>Intro to HTML5 final</title>
 	<meta charset="utf-8">
+	<style>
+		header{
+			background-color: white;
+			text-align: center;
+		}
+		body{
+			background-color: lightblue;
+		}
+		#list{
+			border: 10px;
+			color:red;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -29,9 +42,11 @@
 		<h2 id="Achievements">
 			Achievements
 		</h2>
-		Progress in this course (100%)<meter min="0" max="100" value="100">Progress in this course (100%)</meter><br>
-		Progress in the Speciallization capstone (20%)<meter min="0" max="100" value="20">Progress in the Speciallization capstone (20%)</meter><br>
-		Progress in life goals<meter min="0" max="100" value="67">Progress in life goals</meter>
+		<p id="list">
+			Progress in this course (100%) <meter min="0" max="100" value="100">Progress in this course (100%)</meter><br>
+			Progress in the Speciallization capstone (20%) <meter min="0" max="100" value="20">Progress in the Speciallization capstone (20%)</meter><br>
+			Progress in life goals (67%) <meter min="0" max="100" value="67">Progress in life goals</meter>
+		</p>
 		<h2 id="More">
 			More About Me
 		</h2>
@@ -41,7 +56,7 @@
 		</details>
 	</main>
 	<footer>
-		<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="logo">
+		<img src="http://www.intro-webdesign.com/images/newlogo.png" alt="logo" style="width: 10%"><br>
 		This page was created by Kyle & Collen van Lent. To learn more about webdesign, visit <a href="https://www.coursera.org/specializations/web-design">Intro to Web Design</a>
 	</footer>
 </body>
