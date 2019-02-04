@@ -1,0 +1,44 @@
+body{
+	margin:3.6%;
+}
+header{
+	background-color: #9944FF;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-bottom: 0.6%;
+}
+
+h1{
+	font-size: 300%;
+}
+
+nav a{
+	color: #FFFFFF;
+}
+
+section{
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	border: solid 6px;
+	border-color: #9944FF;
+	margin: 1.2%;
+	float: left;
+}
+
+h2{
+	background-color: #9944FF;
+	color: #FFFFFF;
+}
+
+footer{
+	background-color: #9944FF;
+	color: color: #FFFFFF;
+	clear: both;
+	padding: 0.05%;
+}
+
+img{
+	width: 5%
+}
