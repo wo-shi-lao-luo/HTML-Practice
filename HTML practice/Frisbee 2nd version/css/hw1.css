@@ -44,6 +44,11 @@ img{
 	margin: 5% auto 10%;
 }
 
+img:hover{
+	width: 85%;
+	margin: 5% auto 7.5%;
+}
+
 .right{
 	float: right;
 	width: 73%;
@@ -94,3 +99,4 @@ nav{
 	font-size: 110%;
 	padding: 2% 0%;
 }
+
