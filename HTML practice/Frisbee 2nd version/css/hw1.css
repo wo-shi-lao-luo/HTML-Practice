@@ -34,7 +34,7 @@ img{
 	width: 80%;
 	margin: 10% 10% 0% 10%;
 	border-radius: 8px;
-	border: 30% solid;
+	border: 1.5px solid;
 	border-color: black;
 }
 
@@ -48,7 +48,6 @@ img{
 
 a{
 	color: #000000;
-	background-color: ;
 }
 
 nav a{
@@ -59,6 +58,10 @@ nav a{
 	margin: 2%;
 	text-decoration: none;
 	border-radius: 5px;
+}
+
+nav a:active{
+	background-color: rgba(255,255,255,0.8);
 }
 
 nav{
