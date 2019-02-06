@@ -42,6 +42,8 @@ img{
 	border: 1.5px solid;
 	border-color: black;
 	margin: 5% auto 10%;
+	transition-property: width margin;
+	transition-duration: 0.3s;
 }
 
 img:hover{
@@ -68,6 +70,8 @@ nav a{
 	padding: 1% 6%;
 	margin: 2%;
 	border-radius: 5px;
+	transition-property: width margin;
+	transition-duration: 0.3s;
 }
 
 nav a:link{
