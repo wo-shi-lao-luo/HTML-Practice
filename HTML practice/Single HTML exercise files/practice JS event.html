@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>practice JS event</title>
+	<script type="text/javascript">
+		function click1(argument) {
+			document.getElementById('haha').innerHTML = 'First button clicked'
+			// body...
+		}
+		function click2(argument) {
+			document.getElementById('haha').style.backgroundColor = 'blue'
+			document.getElementById('haha').style.color = 'white'
+			document.getElementById('haha').innerHTML = 'Second button clicked'
+		}
+	</script>
+</head>
+
+<p> hahaha</p>
+
+<button onclick = 'click1()'> first button </button>
+<br/>
+<button onclick = 'click2()'> second button </button>
+
+<p id="haha"> This will change </p>

@@ -1,0 +1,5 @@
+<p> hahaha</p>
+
+<button onclick = 'click1()'> first button </button>
+<br/>
+<button onclick = 'click2()'> second button </button>
