@@ -1,2 +1,2 @@
 # HTML-Practice
-HTML Practice
+HTML CSS JS Practice
