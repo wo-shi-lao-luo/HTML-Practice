@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>'this' practice</title>
+	<script type="text/javascript">
+		function trythis(element) {
+			if (element.alt == null) {
+				document.getElementById('aaa').innerHTML = 'there is nothing special'
+			}
+			else{
+				document.getElementById('aaa').innerHTML = element.alt
+			}
+			// body...
+		}
+	</script>
+</head>
+<body>
+	<p> try shit </p>
+	<button onclick="trythis(this)">hahahaha</button>
+	<p id="aaa"> will this change? </p>
+	<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt='Google Logo' onmouseover="trythis(this)">
+</body>
+</html>
