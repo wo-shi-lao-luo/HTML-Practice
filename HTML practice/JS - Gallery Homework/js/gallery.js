@@ -1,3 +1,6 @@
+var image = document.getElementById('image');
+var orgtext = image.innerHTML;
+
 function upDate(previewPic){
  /* In this function you should 
     1) change the url for the background image of the div with the id = "image" 
@@ -7,7 +10,6 @@ function upDate(previewPic){
     to the alt text of the preview image 
     */
 
-    var image = document.getElementById('image');
     image.style.backgroundImage = 'url(' + previewPic.src + ')';
     image.innerHTML = previewPic.alt;
 
@@ -24,8 +26,7 @@ function unDo(){
     back to the original text.  You can use the html code to see what that original text was
     */
 
-    var image = document.getElementById('image');
-    image.innerHTML = 'Hover over an image below to display here.';
+    image.innerHTML = orgtext;
     image.style.backgroundImage = '';
 		
 	}
