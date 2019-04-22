@@ -2,6 +2,12 @@ html{
 	background-color: lightblue;
 }
 
+header{
+	margin: 1.5em 0em;
+	padding: 1em 0em;
+/*	background-color: blue;*/
+}
+
 body{
 	background-color: lightblue;
 }
@@ -11,22 +17,22 @@ body{
 	padding: 0.5em 1.5em;
 }
 
-nav{
-	vertical-align: middle;
+
+h1{
+	text-align: center;
+}
+
+img{
+	margin: 0 auto;
+	display: inline-block;
 }
 
 
 
 
-
-
-
-
-
-
 @media screen and (min-width: 960px){
-nav a{
-	display: inline-block;
-	margin: 2em;
+
+.myclass{
+	columns: 3;
 }
 }
