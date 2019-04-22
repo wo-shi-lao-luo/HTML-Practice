@@ -1,0 +1,32 @@
+html{
+	background-color: lightblue;
+}
+
+body{
+	background-color: lightblue;
+}
+
+.myClass{
+	border: 2px solid;
+	padding: 0.5em 1.5em;
+}
+
+nav{
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 960px){
+nav a{
+	display: inline-block;
+	margin: 2em;
+}
+}
