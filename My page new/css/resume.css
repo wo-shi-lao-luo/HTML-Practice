@@ -17,6 +17,10 @@ body {
   }
 }
 
+.noBlue{
+  color: #343a40;
+}
+
 h1,
 h2,
 h3,
@@ -90,7 +94,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: #44C7FF;
 }
 
 @media (min-width: 992px) {
@@ -176,17 +180,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #44C7FF !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #44C7FF !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #44C7FF;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #44C7FF;
 }
