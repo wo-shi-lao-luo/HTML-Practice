@@ -171,6 +171,7 @@ header.masthead {
   background-attachment: scroll;
   position: relative;
   background-size: cover;
+  height: 70vw;
 }
 
 header.masthead .overlay {
@@ -220,8 +221,13 @@ header.masthead .site-heading .subheading {
 }
 
 @media only screen and (min-width: 768px) {
-  header.masthead .page-heading h1,
-  header.masthead .site-heading h1 {
+
+header.masthead {
+  height: 30vw;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
     font-size: 80px;
   }
 }
